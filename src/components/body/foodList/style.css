@@ -1,0 +1,21 @@
+#food-table-body {
+  background-color: white;
+}
+
+#food-table-body th,
+#food-table-body td {
+  color: black !important;
+}
+
+#food-table-body > tr {
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+#food-table-body > tr:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
